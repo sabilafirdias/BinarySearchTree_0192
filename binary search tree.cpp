@@ -34,5 +34,10 @@ public:
         Node* currentNode = nullptr;
         search(element, parent, currentNode);   //locate the node which will be the parent of the node to be ins
 
+        if (parent == nullptr) {        //if the parent is NULL (Tree is empty)
+            ROOT = newNode; //mark the new node as ROOT
+            return; //exit
+        }
+
         
 
