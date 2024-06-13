@@ -16,5 +16,13 @@ public:
     }
 };
 
+class BinaryTree {
+public:
+    Node* ROOT;
 
+    BinaryTree() {
+        ROOT = nullptr; //initializing ROOT to null
+    }
+
+    
 
